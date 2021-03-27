@@ -2,19 +2,19 @@
 
 ## Qui suis-je ? 💁
 
-Je suis un développeur français 🇨🇵 qui fait quelques projets par ci par là.
-Je mets une majorité de mes avancées sur GitHub et j'essaie d'en exploiter le plein potentiel.
-
-Mes activités se résument pour l'instant à plusieurs sites web plus ou moins complexes publiés sur Github Pages.
-N'hésitez pas à y aller faire un tour ! 🏃
-Parce oui je n'ai pas de serveur et je suis assez limité pour ceux qui est des outils. Donc je travaille basique... 😔
+Je suis un développeur français 🇨🇵 qui fait quelques projets par ci par là.  
+Je mets une majorité de mes avancées sur GitHub et j'essaie d'en exploiter le plein potentiel.  
+  
+Mes activités se résument pour l'instant à plusieurs sites web plus ou moins complexes publiés sur Github Pages.  
+N'hésitez pas à y aller faire un tour ! 🏃  
+Parce oui je n'ai pas de serveur et je suis assez limité pour ceux qui est des outils. Donc je travaille basique... 😔  
 
 ## Mes spécialités
 
 Mes langages sont :
 * HTML
 * CSS
-* JavaScript
+* JavaScript  
 Et je bosse plus ou moins sur :
 * C++
 * Python
