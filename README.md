@@ -14,7 +14,8 @@ Parce oui je n'ai pas de serveur et je suis assez limité pour ceux qui est des 
 Mes langages sont :
 * HTML
 * CSS
-* JavaScript  
+* JavaScript
+  
 Et je bosse plus ou moins sur :
 * C++
 * Python
