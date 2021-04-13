@@ -7,9 +7,8 @@ body
 
 header
 {
-     background-color: orange;
+     background : linear-gradient(to left top, cyan 15%, orange 85%);
      margin : -8px -8px 0px -8px;
-     border: 1px red solid;
 }
 
 header img
@@ -17,9 +16,8 @@ header img
      width : 30%;
      border-radius : 100%;
      border : 3px white solid;
-     margin : 20px;
-     display : flex;
-     justify-content: center;
+     margin : 20px 50%;
+     transform : translateX(-50%);
 }
 
 header h1
@@ -28,7 +26,7 @@ header h1
      font-weight : bold;
      text-align: center;
      margin : 0px;
-     margin-bottom : 20px;
+     padding-bottom : 20px;
 }
 
 section h2
@@ -55,7 +53,6 @@ section article
      margin : 10px;
      background-color: silver;
      border-radius : 20px;
-     height : 40%;
      padding : 5px;
      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -63,10 +60,10 @@ section article
 section article img
 {
      float : left;
-     width : 20%;
-     height : 20%;
      padding : 5px;
      border-radius : 15px;
+     height : 96px;
+     position : absolute;
 }
 
 section article p
@@ -75,7 +72,7 @@ section article p
      font-weight : bold;
      font-size : 20px;
      margin : 4px;
-     transform : translateX(5px);
+     margin-left : 115px;
 }
 
 section article em
@@ -85,9 +82,9 @@ section article em
      vertical-align: bottom;
      font-weight : normal;
      font-size : 20px;
-     margin-left : 85px;
+     margin-left : 115px;
      padding-right : 10px;
-     overflow : scroll;
+     overflow-x : scroll;
 }
 
 section article a
@@ -99,7 +96,7 @@ section article a
      border : 2px blue solid;
      padding : 5px;
      margin : 5px;
-     margin-top : 15px;
+     margin-top : 45px;
 }
 
 @media (prefers-color-scheme : dark)
