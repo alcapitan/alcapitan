@@ -17,6 +17,7 @@ header img
      border-radius : 100%;
      border : 3px white solid;
      margin : 20px 50%;
+     margin-right : 0px;
      transform : translateX(-50%);
 }
 
@@ -54,7 +55,9 @@ section article
      background-color: silver;
      border-radius : 20px;
      padding : 5px;
-     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     max-width : 500px;
+     display : inline-grid;
 }
 
 section article img
@@ -84,7 +87,7 @@ section article em
      font-size : 20px;
      margin-left : 115px;
      padding-right : 10px;
-     overflow-x : scroll;
+     overflow-wrap : anywhere;
 }
 
 section article a
