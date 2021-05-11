@@ -3,12 +3,13 @@
 body
 {
      font-family: "Red Hat Display", Arial;
+     background-color : white;
 }
 
 header
 {
      background : linear-gradient(to left top, cyan 15%, orange 85%);
-     margin : -8px -8px 0px -8px;
+     margin : -8px -8px 10px -8px;
 }
 
 header img
@@ -43,75 +44,121 @@ section
 {
      margin : -8px;
      padding : 10px;
-     text-align : center;
 }
 
 section > p
 {
      padding : 0px 15px;
-     text-align : left;
 }
 
-section article
+section[name=contacts] div
 {
-     margin : 10px;
-     background-color: #b3b3b3;
-     border-radius : 20px;
-     padding : 5px;
-     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-     max-width : 500px;
-     display : inline-grid;
-     min-height : 150px;
+     display : flex;
+     justify-content: center;
+     flex-wrap : wrap;
 }
 
-section article img
+section[name=contacts] article
 {
-     float : left;
+     margin : 5px;
+     background-color: #e6ffff;
+     border-radius : 6px;
      padding : 5px;
-     border-radius : 15px;
+}
+
+section[name=contacts] article img
+{
+     border-radius : 10px;
      height : 96px;
-     position : absolute;
+     margin-left : 50%;
+     transform : translateX(-50%);
 }
 
-section article p
-{
-     display : block;
-     font-weight : bold;
-     font-size : 20px;
-     margin : 4px;
-     margin-left : 115px;
-}
-
-section article em
-{
-     display : block;
-     margin : 10px 5px;
-     vertical-align: bottom;
-     font-weight : normal;
-     font-size : 20px;
-     margin-left : 115px;
-     padding-right : 10px;
-     overflow-wrap : anywhere;
-}
-
-section article a
+section[name=contacts] article a, section[name=contacts] article p
 {
      display : block;
      text-align: center;
-     border-radius : 10px;
-     color : blue;
-     border : 2px blue solid;
-     padding : 5px;
      margin : 5px;
-     background-color : #e6e6e6;
-     height : 21px;
-     transform : translateY(8px);
+     color : #000099;
+     text-decoration : none;
 }
 
-@media (prefers-color-scheme : dark)
+section[name=contacts] article a:after, section[name=contacts] article p:after
 {
-     section
-     {
-          background-color: gray;
-     }
+     content : " >";
+}
+
+section[name=projets] article
+{
+     border : 2px #000099 solid;
+     border-bottom-width: 5px;
+     border-radius : 5px;
+     margin : 5px;
+     margin-bottom : 10px;
+}
+
+section[name=projets] article img
+{
+     width : 30%;
+     margin : 15px;
+     margin-left : 50%;
+     transform: translateX(-50%);
+     border-radius : 12px;
+}
+
+section[name=projets] article h3, section[name=projets] article p
+{
+     margin : 15px;
+}
+
+section[name=projets] article h3
+{
+     color : #000099;
+}
+
+section[name=projets] article p
+{
+     color : #666699;
+}
+
+section[name=projets] article p a
+{
+     color : #0000ff;
+     margin-right : 20px;
+}
+
+section[name=projets] article p a:after
+{
+     content : " >";
+}
+
+section[name=languageoutils] div
+{
+     display : flex;
+     flex-wrap: wrap;
+}
+
+section[name=languageoutils] p
+{
+     color : #666699;
+}
+
+section[name=languageoutils] div img
+{
+     float : left;
+     width : 70px;
+     margin : 5px;
+     border-radius : 10%;
+}
+
+footer
+{
+     float : right;
+     margin : 10px;
+}
+
+footer a
+{
+     margin : 0px 10px;
+     color : #404040;
 }
