@@ -51,14 +51,19 @@ section > p
      padding : 0px 15px;
 }
 
+section[name=contacts] div
+{
+     display : flex;
+     justify-content: center;
+     flex-wrap : wrap;
+}
+
 section[name=contacts] article
 {
      margin : 5px;
      background-color: #e6ffff;
      border-radius : 6px;
      padding : 5px;
-     max-width : 500px;
-     display : inline-grid;
 }
 
 section[name=contacts] article img
@@ -89,17 +94,53 @@ section[name=projets] article
      border-bottom-width: 5px;
      border-radius : 5px;
      margin : 5px;
+     margin-bottom : 10px;
 }
 
 section[name=projets] article img
 {
      width : 30%;
      margin : 15px;
+     margin-left : 50%;
+     transform: translateX(-50%);
+     border-radius : 12px;
 }
 
-section[name=projets] div h3, section[name=projets] div p, section[name=projets] div a
+section[name=projets] article h3, section[name=projets] article p
 {
-     margin : 5px;
+     margin : 15px;
+}
+
+section[name=projets] article h3
+{
+     color : #000099;
+}
+
+section[name=projets] article p
+{
+     color : #666699;
+}
+
+section[name=projets] article p a
+{
+     color : #0000ff;
+     margin-right : 20px;
+}
+
+section[name=projets] article p a:after
+{
+     content : " >";
+}
+
+section[name=languageoutils] div
+{
+     display : flex;
+     flex-wrap: wrap;
+}
+
+section[name=languageoutils] p
+{
+     color : #666699;
 }
 
 section[name=languageoutils] div img
