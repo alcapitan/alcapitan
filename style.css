@@ -8,7 +8,9 @@ body
 
 header
 {
-     background : linear-gradient(to left top, cyan 15%, orange 85%);
+     background-image : url(medias/background.jpg);
+     background-size : cover;
+     background-position: bottom;
      margin : -8px -8px 10px -8px;
 }
 
@@ -29,6 +31,7 @@ header h1
      text-align: center;
      margin : 0px;
      padding-bottom : 20px;
+     color : white;
 }
 
 section h2
@@ -40,6 +43,26 @@ section h2
      text-align : left;
 }
 
+nav
+{
+     margin-bottom: 20px;
+}
+
+nav p
+{
+     margin : 5px;
+     padding : 5px;
+     background-color: #fff5f5;
+     border-radius : 6px;
+     display : inline-block;
+}
+
+nav a
+{
+     color : #4d0000;
+     text-decoration: none;
+}
+
 section
 {
      margin : -8px;
@@ -49,46 +72,60 @@ section
 section > p
 {
      padding : 0px 15px;
+     font-size : 18px;
 }
 
-section[name=contacts] div
+section[id=contacts] div
 {
      display : flex;
      justify-content: center;
      flex-wrap : wrap;
 }
 
-section[name=contacts] article
+section[id=contacts] article
 {
      margin : 5px;
-     background-color: #e6ffff;
-     border-radius : 6px;
+     background-color: #fff5f5;
+     border-radius : 10px;
      padding : 5px;
+     width : 120px;
+     height : 120px;
 }
 
-section[name=contacts] article img
+section[id=contacts] article img
 {
      border-radius : 10px;
-     height : 96px;
+     height : 60px;
      margin-left : 50%;
-     transform : translateX(-50%);
+     transform : translate(-50%, 20px);
+     z-index : 1;
 }
 
-section[name=contacts] article a, section[name=contacts] article p
+section[id=contacts] article a, section[id=contacts] article p
 {
      display : block;
-     text-align: center;
      margin : 5px;
-     color : #000099;
+     color : #4d0000;
      text-decoration : none;
+     z-index : 0;
+     transform : translateY(25px);
+     font-size : 16px;
 }
 
-section[name=contacts] article a:after, section[name=contacts] article p:after
+section[id=contacts] article p span
+{
+     font-size : 14px;
+     color : #993333;
+     position : relative;
+     transform: translateY(60px);
+}
+
+section[id=contacts] article a:after
 {
      content : " >";
 }
 
-section[name=projets] article
+section[id=projets] article
 {
      border : 2px #000099 solid;
      border-bottom-width: 5px;
@@ -97,7 +134,7 @@ section[name=projets] article
      margin-bottom : 10px;
 }
 
-section[name=projets] article img
+section[id=projets] article img
 {
      width : 30%;
      margin : 15px;
@@ -106,59 +143,46 @@ section[name=projets] article img
      border-radius : 12px;
 }
 
-section[name=projets] article h3, section[name=projets] article p
+section[id=projets] article h3, section[id=projets] article p
 {
      margin : 15px;
 }
 
-section[name=projets] article h3
+section[id=projets] article h3
 {
      color : #000099;
 }
 
-section[name=projets] article p
+section[id=projets] article p
 {
      color : #666699;
 }
 
-section[name=projets] article p a
+section[id=projets] article p a
 {
      color : #0000ff;
      margin-right : 20px;
 }
 
-section[name=projets] article p a:after
+section[id=projets] article p a:after
 {
      content : " >";
-}
-
-section[name=languageoutils] div
-{
-     display : flex;
-     flex-wrap: wrap;
-}
-
-section[name=languageoutils] p
-{
-     color : #666699;
-}
-
-section[name=languageoutils] div img
-{
-     float : left;
-     width : 70px;
-     margin : 5px;
-     border-radius : 10%;
 }
 
 footer
 {
      float : right;
-     margin : 10px;
+     padding : 10px 20px;
+     position : absolute;
+     left : -10px;
+     right : -10px;
+     background-color: #ffb3b3;
+     text-align: right;
+     margin-top : 20px;
 }
 
 footer a
 {
-     margin : 0px 10px;
-     color : #404040;
+     margin : 5px 10px;
+     color : #4d0000;
 }
