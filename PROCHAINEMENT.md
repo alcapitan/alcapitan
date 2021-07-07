@@ -1,3 +1,0 @@
-# Futures mises à jour
-
-* Rien de prévu pour l'instant...
