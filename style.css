@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body
 {
-     font-family: "Red Hat Display", Arial;
+     font-family: "Montserrat", Arial;
      background-color : white;
 }
 
@@ -12,6 +13,8 @@ header
      background-size : cover;
      background-position: bottom;
      margin : -8px -8px 10px -8px;
+     padding : -20px;
+     /* height : 280px; */
 }
 
 header img
@@ -19,19 +22,26 @@ header img
      width : 30%;
      border-radius : 100%;
      border : 3px white solid;
-     margin : 20px 50%;
+     margin : 10% 50%;
      margin-right : 0px;
      transform : translateX(-50%);
+     max-width : 200px;
+}
+
+header svg
+{
+     transform : translateY(15px);
 }
 
 header h1
 {
-     font-size : 35px;
+     font-size : 36px;
      font-weight : bold;
      text-align: center;
      margin : 0px;
      padding-bottom : 20px;
      color : white;
+     font-family: "Red Hat Display";
 }
 
 section h2
@@ -39,20 +49,24 @@ section h2
      font-weight : bold;
      text-decoration: underline;
      margin : 10px;
-     font-size : 25px;
+     font-size : 26px;
      text-align : left;
+     font-family: "Red Hat Display";
 }
 
 nav
 {
      margin-bottom: 20px;
+     display : flex;
+     justify-content: center;
+     flex-wrap : wrap;
 }
 
 nav p
 {
      margin : 5px;
-     padding : 5px;
-     background-color: #fff5f5;
+     padding : 7px;
+     background-color: #ffe6e6;
      border-radius : 6px;
      display : inline-block;
 }
@@ -73,6 +87,13 @@ section > p
 {
      padding : 0px 15px;
      font-size : 18px;
+}
+
+section[id=contacts] > p
+{
+     font-size : 16px;
+     color : #993333;
+     margin : 10px;
 }
 
 section[id=contacts] div
@@ -101,67 +122,70 @@ section[id=contacts] article img
      z-index : 1;
 }
 
-section[id=contacts] article a, section[id=contacts] article p
+section[id=contacts] article p
 {
-     display : block;
      margin : 5px;
      color : #4d0000;
-     text-decoration : none;
      z-index : 0;
      transform : translateY(25px);
      font-size : 16px;
+     text-decoration: none;
 }
 
 section[id=contacts] article p span
 {
-     font-size : 14px;
+     font-size : 12px;
      color : #993333;
-     position : relative;
-     transform: translateY(60px);
+     position : absolute;
+     transform: translateY(-37px);
 }
 
-section[id=contacts] article a:after
+section[id=projets] div
 {
-     content : " >";
+     display : flex;
+     justify-content: center;
+     flex-wrap : wrap;
 }
 
 section[id=projets] article
 {
-     border : 2px #000099 solid;
-     border-bottom-width: 5px;
-     border-radius : 5px;
+     border-radius : 10px;
      margin : 5px;
-     margin-bottom : 10px;
+     background-color: #ffe6e6;
+     max-width : 800px;
+     padding : 5px;
 }
 
 section[id=projets] article img
 {
-     width : 30%;
-     margin : 15px;
+     max-width : 200px;
+     margin : 10px;
      margin-left : 50%;
+     margin-bottom : 5px;
      transform: translateX(-50%);
-     border-radius : 12px;
-}
-
-section[id=projets] article h3, section[id=projets] article p
-{
-     margin : 15px;
+     border-radius : 10px;
 }
 
 section[id=projets] article h3
 {
-     color : #000099;
+     color : #990000;
+     font-family: "Red Hat Display";
+     margin : 5px 15px;
+     font-size : 22px;
 }
 
 section[id=projets] article p
 {
-     color : #666699;
+     color : #b31919;
+     margin : 10px 25px;
+     font-size : 16px;
 }
 
 section[id=projets] article p a
 {
-     color : #0000ff;
+     color : #cc0000;
      margin-right : 20px;
+     font-family: "Red Hat Display";
 }
 
 section[id=projets] article p a:after
@@ -169,20 +193,42 @@ section[id=projets] article p a:after
      content : " >";
 }
 
+section[id=projets] article div p
+{
+     font-size : 14px;
+     color : #993333;
+     margin : 5px;
+}
+
+section[id=projets] p
+{
+     font-size : 14px;
+     color : #993333;
+     margin : 15px;
+}
+
 footer
 {
-     float : right;
      padding : 10px 20px;
      position : absolute;
      left : -10px;
      right : -10px;
      background-color: #ffb3b3;
-     text-align: right;
+     text-align: center;
      margin-top : 20px;
 }
 
-footer a
+footer div *
 {
      margin : 5px 10px;
      color : #4d0000;
+     display : inline-block;
+     text-decoration: none;
+}
+
+footer > p
+{
+     font-size : 14px;
+     color : #993333;
+     margin : 5px;
 }
