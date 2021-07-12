@@ -1,17 +1,19 @@
-# Bonjour petit voyageur 👋
+# Bonjour et bienvenue sur mon profil 👋
 
 ## Qui suis-je ? 💁
 
-Je suis un développeur français 🇨🇵 de 15 ans qui fait quelques projets assez sérieux par ci par là.  
+J'ai 15 ans, je vis dans le Vaucluse (France), et je vais passer en classe de première au lycée.  
+J'ai également créé un média sur des infos qu'on entend peu parler sur Instagram, n'hésitez pas à y faire un tour et à vous abonner : [alcapitan.news](https://www.instagram.com/alcapitan.news)  
 Ma citation est : "Si tu es contre le monde, alors tu es fait pour changer le monde." (proverbe indien)  
+  
 Suivez-moi pour voir toutes les avancées ! 😊  
   
-_Pour me contacter : [https://alcapitan.github.io/alcapitan](https://alcapitan.github.io/alcapitan)_
+_Pour en savoir plus et me contacter sur les réseaux sociaux : [https://alcapitan.github.io/alcapitan](https://alcapitan.github.io/alcapitan)_
 
 ## Mes activités 👨‍💻
 
-Je fais majoritairement des sites web (front-end seulement).  
-Il faut savoir que je n'ai pas de serveur donc aucune fonctionnalité nécessitant celui ci ni de back-end... Mais dès que j'en aurai un, je m'y lance ! C'est pour cela aussi que tout mes sites sont publiés grâce à GitHub Pages.
+Je suis actuellement en train de rénover tout mes projets afin de les rendre viables, vous voyez sur ce profil qu'une petite partie de mon travail déjà accompli.  
+Je ne fais malheureusement que du front-end car je n'ai pas de serveur.
 
 **Les languages que je pratique sont :**
 * HTML
@@ -19,8 +21,9 @@ Il faut savoir que je n'ai pas de serveur donc aucune fonctionnalité nécessita
 * JavaScript
   
 **Et prochainement :**
-* C++
 * Python
+* C++
+* Java
 
 **Les particularités de mes créations :** leur vitesse (battant largement les autres), leur accesibilité, et leur simplicité.  
   
@@ -28,6 +31,6 @@ Il faut savoir que je n'ai pas de serveur donc aucune fonctionnalité nécessita
 
 ## Collaborations 🤝
 
-Je suis dispo pour des collaborations qui auraient besoin de mes compétences listés ci-dessus.  
+Je suis dispo pour des collaborations qui serait dans mes compétences.
   
-Je suis également ouvert à ceux qui voudront m'aider à faire évoluer mes répertoires via les "Discussions" "Issues" et le rôle "Collaborateur".  
+N'hésitez pas à m'aider à faire évoluer mes projets via les "Discussions" "Issues" et le rôle "Collaborateur".  
