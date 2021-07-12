@@ -11,10 +11,8 @@ header
 {
      background-image : url(medias/background.jpg);
      background-size : cover;
-     background-position: bottom;
+     background-position: left;
      margin : -8px -8px 10px -8px;
-     padding : -20px;
-     /* height : 280px; */
 }
 
 header img
@@ -22,7 +20,7 @@ header img
      width : 30%;
      border-radius : 100%;
      border : 3px white solid;
-     margin : 10% 50%;
+     margin : 50px 50%;
      margin-right : 0px;
      transform : translateX(-50%);
      max-width : 200px;
@@ -30,7 +28,7 @@ header img
 
 header svg
 {
-     transform : translateY(15px);
+     transform : translateY(-40px);
 }
 
 header h1
