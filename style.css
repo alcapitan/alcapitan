@@ -89,6 +89,39 @@ section > p
      font-size : 18px;
 }
 
+section[id=infos] div article
+{
+     margin : 15px;
+     padding : 15px;
+     border-radius : 20px;
+     height : 150px;
+}
+
+section[id=infos] div article *
+{
+     margin : 0px;
+     color : white;
+}
+
+section[id=infos] div article h3
+{
+     font-size : 20px;
+     font-weight : bold;
+}
+
+section[id=infos] div article p
+{
+     margin : 10px;
+     font-size : 16px;
+}
+
+section[id=infos] div article em
+{
+     width : 100%;
+     text-align : right;
+     color : #cccccc;
+}
+
 section[id=contacts] > p
 {
      font-size : 16px;
