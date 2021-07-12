@@ -20,15 +20,10 @@ header img
      width : 30%;
      border-radius : 100%;
      border : 3px white solid;
-     margin : 50px 50%;
-     margin-right : 0px;
+     margin : 0px 50%;
+     margin-top : 50px;
      transform : translateX(-50%);
      max-width : 200px;
-}
-
-header svg
-{
-     transform : translateY(-40px);
 }
 
 header h1
@@ -36,10 +31,15 @@ header h1
      font-size : 36px;
      font-weight : bold;
      text-align: center;
-     margin : 0px;
-     padding-bottom : 20px;
+     margin : 20px;
+     margin-bottom : -20px;
      color : white;
      font-family: "Red Hat Display";
+}
+
+header svg
+{
+     transform : translateY(15px);
 }
 
 section h2
