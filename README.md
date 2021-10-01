@@ -2,13 +2,14 @@
 
 ## Qui suis-je ? 💁
 
-J'ai 15 ans, je vis dans le Vaucluse (France), et je vais passer en classe de première au lycée.  
-J'ai également créé un média sur des infos qu'on entend peu parler sur Instagram, n'hésitez pas à y faire un tour et à vous abonner : [alcapitan.news](https://www.instagram.com/alcapitan.news)  
+J'ai 15 ans, je vis dans le Vaucluse (France), et je suis en classe de première au lycée.  
+La programmation est une de mes activités préférés. Vous verrez ici tout mes projets présentables.
+  
 Ma citation est : "Si tu es contre le monde, alors tu es fait pour changer le monde." (proverbe indien)  
   
 Suivez-moi pour voir toutes les avancées ! 😊  
   
-_Pour en savoir plus et me contacter sur les réseaux sociaux : [https://alcapitan.github.io/alcapitan](https://alcapitan.github.io/alcapitan)_
+_Allez voir mon portfolio pour en savoir plus et pour voir mes profils ailleurs : [https://alcapitan.github.io/alcapitan](https://alcapitan.github.io/alcapitan)_
 
 ## Mes activités 👨‍💻
 
@@ -16,18 +17,22 @@ Je suis actuellement en train de rénover tout mes projets afin de les rendre vi
 Je ne fais malheureusement que du front-end car je n'ai pas de serveur.
 
 **Les languages que je pratique sont :**
-* HTML
+* HTML 
 * CSS
 * JavaScript
+* Python
   
 **Et prochainement :**
-* Python
 * C++
 * Java
 
 **Les particularités de mes créations :** leur vitesse (battant largement les autres), leur accesibilité, et leur simplicité.  
   
 **Allez voir les répertoires que j'ai épinglés et n'hésitez pas à m'envoyer vos retours via la rubrique "Discussions" ou "Issues" ! 👇**  
+
+## Mon projet en parallèle : Al Capitan News
+
+J'ai également créé un média sur des infos qu'on entend peu parler sur Instagram, n'hésitez pas à y faire un tour et à vous abonner : [alcapitan.news](https://www.instagram.com/alcapitan.news)  
 
 ## Collaborations 🤝
 
