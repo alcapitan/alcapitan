@@ -9,11 +9,12 @@ Ma citation est : "Si tu es contre le monde, alors tu es fait pour changer le mo
   
 Suivez-moi pour voir toutes les avancées ! 😊  
   
-_Allez voir mon portfolio pour en savoir plus et pour voir mes profils ailleurs : [https://alcapitan.github.io/alcapitan](https://alcapitan.github.io/alcapitan)_
+_Allez voir mon portfolio pour en savoir plus et pour voir mes profils sur d'autres sites : [https://alcapitan.github.io/alcapitan](https://alcapitan.github.io/alcapitan)_
 
 ## Mes activités 👨‍💻
 
-Je suis actuellement en train de rénover tout mes projets afin de les rendre viables, vous voyez sur ce profil qu'une petite partie de mon travail déjà accompli.  
+Je suis actuellement en train de rénover tout mes projets afin de les rendre viables.  
+Vous voyez sur ce profil qu'une petite partie de mon travail déjà accompli.  
 Je ne fais malheureusement que du front-end car je n'ai pas de serveur.
 
 **Les languages que je pratique sont :**
@@ -30,12 +31,16 @@ Je ne fais malheureusement que du front-end car je n'ai pas de serveur.
   
 **Allez voir les répertoires que j'ai épinglés et n'hésitez pas à m'envoyer vos retours via la rubrique "Discussions" ou "Issues" ! 👇**  
 
-## Mon projet en parallèle : Al Capitan News
+## Mon projet en parallèle : Al Capitan News 📰
 
-J'ai également créé un média sur des infos qu'on entend peu parler sur Instagram, n'hésitez pas à y faire un tour et à vous abonner : [alcapitan.news](https://www.instagram.com/alcapitan.news)  
+En plus de la programmation, ma deuxième activité préféré est l'information/l'actualité.  
+C'est pour cela que j'ai créé un compte actu sur Instagram.  
+Je diffuse de l'actu générale mais je me concentre sur les infos peu diffusées. 
+N'hésitez pas à y faire un tour et à vous abonner : [alcapitan.news](https://www.instagram.com/alcapitan.news)  
 
 ## Collaborations 🤝
 
-Je suis dispo pour des collaborations qui serait dans mes compétences.
+Je suis volontaire pour des collaborations qui serait dans mes compétences.  
+Envoyez moi un message (via les contacts dans mon portfolio), pour faire un échange de travail.  
   
 N'hésitez pas à m'aider à faire évoluer mes projets via les "Discussions" "Issues" et le rôle "Collaborateur".  
