@@ -16,31 +16,30 @@ header
 {
      background-image : url(medias/background.jpg);
      background-size : cover;
-     background-position: bottom;
+     background-position: center;
      background-attachment: fixed;
      margin : -8px -8px 10px -8px;
-     height : 60vh;
+     height : 350px;
 }
 
 header img
 {
-     width : 30%;
+     width : 150px;
      border-radius : 100%;
      border : 3px white solid;
-     margin-left : 50%;
      margin-top : 50px;
+     margin-left : 50%;
      transform : translateX(-50%);
-     max-width : 200px;
 }
 
 header h1
 {
+     color : white;
+     font-family: "Red Hat Display";
      font-size : 36px;
      font-weight : bold;
      text-align: center;
-     margin : 10px;
-     color : white;
-     font-family: "Red Hat Display";
+     margin : 20px;
 }
 
 
@@ -48,7 +47,7 @@ header h1
 
 nav
 {
-     margin-bottom: 20px;
+     margin : 20px 0px;
      display : flex;
      justify-content: center;
      flex-wrap : wrap;
@@ -63,11 +62,18 @@ nav p
      display : inline-block;
 }
 
+nav p:hover
+{
+     background-color: #ff8080;
+     font-weight: bold;
+}
+
 nav a
 {
      color : #4d0000;
      text-decoration: none;
 }
+
 
 /* Section */
 
@@ -83,15 +89,18 @@ section h2
      text-decoration: underline;
      margin : 10px;
      font-size : 26px;
-     text-align : left;
      font-family: "Red Hat Display";
 }
 
-section > p
+     /* Biographie */
+
+section[id=biographie] p
 {
      padding : 0px 15px;
      font-size : 18px;
 }
+
+     /* Informations */
 
 section[id=infos] div article
 {
@@ -126,6 +135,9 @@ section[id=infos] div article em
      color : #cccccc;
 }
 
+
+     /* Contacts */
+
 section[id=contacts] > p
 {
      font-size : 16px;
@@ -145,12 +157,18 @@ section[id=contacts] div a
      text-decoration: none;
 }
 
+section[id=contacts] div a:active
+{
+     background-color: #ff8080;
+     font-weight: bold;
+}
+
 section[id=contacts] article
 {
      margin : 5px;
+     padding : 5px;
      background-color: #ffe6e6;
      border-radius : 10px;
-     padding : 5px;
      width : 120px;
      height : 120px;
 }
@@ -182,6 +200,9 @@ section[id=contacts] article p span
      transform: translateY(-37px);
 }
 
+
+     /* Projets */
+
 section[id=projets] div
 {
      display : flex;
@@ -192,18 +213,16 @@ section[id=projets] div
 section[id=projets] article
 {
      border-radius : 10px;
-     margin : 5px;
      background-color: #ffe6e6;
      max-width : 800px;
+     margin : 5px;
      padding : 5px;
 }
 
 section[id=projets] article img
 {
      max-width : 200px;
-     margin : 10px;
-     margin-left : 50%;
-     margin-bottom : 5px;
+     margin : 10px 10px 5px 50%;
      transform: translateX(-50%);
      border-radius : 10px;
 }
@@ -235,6 +254,11 @@ section[id=projets] article p a:after
      content : " >";
 }
 
+section[id=projets] article p a:hover
+{
+     font-weight: bold;
+}
+
 section[id=projets] article div p
 {
      font-size : 14px;
@@ -254,21 +278,21 @@ section[id=projets] p
 
 footer
 {
+     margin-top : 20px;
      padding : 10px 0px;
      position : absolute;
      left : 0px;
      right : 0px;
      background-color: #ffb3b3;
      text-align: center;
-     margin-top : 20px;
 }
 
 footer div *
 {
      margin : 5px 10px;
+     text-decoration: none;
      color : #4d0000;
      display : inline-block;
-     text-decoration: none;
 }
 
 footer > p
