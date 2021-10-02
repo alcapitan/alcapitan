@@ -1,3 +1,5 @@
+/* Global */
+
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
@@ -7,12 +9,17 @@ body
      background-color : white;
 }
 
+
+/* Header */
+
 header
 {
      background-image : url(medias/background.jpg);
      background-size : cover;
-     background-position: left;
+     background-position: bottom;
+     background-attachment: fixed;
      margin : -8px -8px 10px -8px;
+     height : 60vh;
 }
 
 header img
@@ -31,26 +38,13 @@ header h1
      font-size : 36px;
      font-weight : bold;
      text-align: center;
-     margin : 20px;
-     margin-bottom : -20px;
+     margin : 10px;
      color : white;
      font-family: "Red Hat Display";
 }
 
-header svg
-{
-     transform : translateY(15px);
-}
 
-section h2
-{
-     font-weight : bold;
-     text-decoration: underline;
-     margin : 10px;
-     font-size : 26px;
-     text-align : left;
-     font-family: "Red Hat Display";
-}
+/* Nav */
 
 nav
 {
@@ -75,10 +69,22 @@ nav a
      text-decoration: none;
 }
 
+/* Section */
+
 section
 {
      margin : -8px;
      padding : 10px;
+}
+
+section h2
+{
+     font-weight : bold;
+     text-decoration: underline;
+     margin : 10px;
+     font-size : 26px;
+     text-align : left;
+     font-family: "Red Hat Display";
 }
 
 section > p
@@ -142,7 +148,7 @@ section[id=contacts] div a
 section[id=contacts] article
 {
      margin : 5px;
-     background-color: #fff5f5;
+     background-color: #ffe6e6;
      border-radius : 10px;
      padding : 5px;
      width : 120px;
@@ -165,6 +171,7 @@ section[id=contacts] article p
      z-index : 0;
      transform : translateY(25px);
      font-size : 16px;
+     text-decoration: none;
 }
 
 section[id=contacts] article p span
@@ -242,12 +249,15 @@ section[id=projets] p
      margin : 15px;
 }
 
+
+/* Footer */
+
 footer
 {
-     padding : 10px 20px;
+     padding : 10px 0px;
      position : absolute;
-     /* left : -10px;
-     right : -10px; */
+     left : 0px;
+     right : 0px;
      background-color: #ffb3b3;
      text-align: center;
      margin-top : 20px;
