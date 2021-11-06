@@ -9,6 +9,13 @@ body
      background-color : white;
 }
 
+:root
+{
+     --defaultColorLight : #ffb3b3;
+     --defaultColorMedium : #ff5050;
+	--defaultColorDark : #cc0066;
+     font-size : 16px;
+}
 
 /* Header */
 
@@ -20,89 +27,107 @@ header
      background-attachment: fixed;
      margin : -8px -8px 10px -8px;
      height : 350px;
+     display : flex;
+     justify-content: center;
+     align-items: center;
 }
 
-header img
+header div
+{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+}
+
+header div img
 {
      width : 150px;
      border-radius : 100%;
      border : 3px white solid;
-     margin-top : 50px;
-     margin-left : 50%;
-     transform : translateX(-50%);
 }
 
-header h1
+header div h1
 {
-     color : white;
+     color : var(--defaultColorDark);
      font-family: "Red Hat Display";
-     font-size : 36px;
+     font-size : 2.5rem;
      font-weight : bold;
-     text-align: center;
      margin : 20px;
 }
-
 
 /* Nav */
 
 nav
 {
-     margin : 20px 0px;
+     margin : 15px 10%;
      display : flex;
-     justify-content: center;
+     justify-content: space-around;
      flex-wrap : wrap;
 }
 
-nav p
+nav div
 {
-     margin : 5px;
-     padding : 7px;
-     background-color: #ffe6e6;
-     border-radius : 6px;
-     display : inline-block;
+     margin : 10px;
+     padding : 10px 20px;
+     background-color: var(--defaultColorLight);
+     border-radius : 10px;
+     color : var(--defaultColorDark);
 }
 
-nav p:hover
+nav div a
 {
-     background-color: #ff8080;
+     text-decoration: none;
+     font-size: 1.3rem;
+     margin : 0;
+     color : inherit;
+}
+
+nav div:hover
+{
+     background-color: var(--defaultColorDark);
+     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     color : var(--defaultColorLight);
      font-weight: bold;
 }
-
-nav a
-{
-     color : #4d0000;
-     text-decoration: none;
-}
-
 
 /* Section */
 
 section
 {
-     margin : -8px;
-     padding : 10px;
+     margin : 0 10%;
 }
 
 section h2
 {
      font-weight : bold;
      text-decoration: underline;
-     margin : 10px;
-     font-size : 26px;
+     margin : 10px 0;
+     font-size : 2rem;
      font-family: "Red Hat Display";
 }
 
-     /* Biographie */
-
-section[id=biographie] p
+section p
 {
-     padding : 0px 15px;
-     font-size : 18px;
+     font-size : 1rem;
+     line-height: 1.4;
+}
+
+section a
+{
+     color : var(--defaultColorMedium);
+     text-decoration: none;
+}
+
+section a:hover
+{
+     color : var(--defaultColorDark);
+     text-decoration: underline;
+     font-weight: bold;
 }
 
      /* Informations */
 
-section[id=infos] div article
+/*section[id=infos] div article
 {
      margin : 15px;
      padding : 15px;
@@ -133,146 +158,142 @@ section[id=infos] div article em
      width : 100%;
      text-align : right;
      color : #cccccc;
-}
-
+} */
 
      /* Contacts */
 
-section[id=contacts] > p
-{
-     font-size : 16px;
-     color : #993333;
-     margin : 10px;
-}
-
-section[id=contacts] div
+article[id=contacts] div
 {
      display : flex;
-     justify-content: center;
+     justify-content: space-around;
      flex-wrap : wrap;
 }
 
-section[id=contacts] div a
-{
-     text-decoration: none;
-}
-
-section[id=contacts] div a:active
-{
-     background-color: #ff8080;
-     font-weight: bold;
-}
-
-section[id=contacts] article
+article[id=contacts] div a
 {
      margin : 5px;
-     padding : 5px;
-     background-color: #ffe6e6;
+     padding : 0;
+     width : 120px;
+     height : 120px;
+     color : var(--defaultColorDark);
+     font-size : 1rem;
+}
+
+article[id=contacts] div a div
+{
+     margin : 0;
+     padding : 0;
+     background-color: var(--defaultColorLight);
      border-radius : 10px;
      width : 120px;
      height : 120px;
+     display: grid;
+     align-items: center;
+     justify-items: center;
+     color : var(--defaultColorDark);
 }
 
-section[id=contacts] article img
+article[id=contacts] div a div:hover
 {
-     border-radius : 10px;
-     height : 60px;
-     margin-left : 50%;
-     transform : translate(-50%, 20px);
-     z-index : 1;
-}
-
-section[id=contacts] article p
-{
-     margin : 5px;
-     color : #4d0000;
-     z-index : 0;
-     transform : translateY(25px);
-     font-size : 16px;
-     text-decoration: none;
-}
-
-section[id=contacts] article p span
-{
-     font-size : 12px;
-     color : #993333;
-     position : absolute;
-     transform: translateY(-37px);
-}
-
-
-     /* Projets */
-
-section[id=projets] div
-{
-     display : flex;
-     justify-content: center;
-     flex-wrap : wrap;
-}
-
-section[id=projets] article
-{
-     border-radius : 10px;
-     background-color: #ffe6e6;
-     max-width : 800px;
-     margin : 5px;
-     padding : 5px;
-}
-
-section[id=projets] article img
-{
-     max-width : 200px;
-     margin : 10px 10px 5px 50%;
-     transform: translateX(-50%);
-     border-radius : 10px;
-}
-
-section[id=projets] article h3
-{
-     color : #990000;
-     font-family: "Red Hat Display";
-     margin : 5px 15px;
-     font-size : 22px;
-}
-
-section[id=projets] article p
-{
-     color : #b31919;
-     margin : 10px 25px;
-     font-size : 16px;
-}
-
-section[id=projets] article p a
-{
-     color : #cc0000;
-     margin-right : 20px;
-     font-family: "Red Hat Display";
-}
-
-section[id=projets] article p a:after
-{
-     content : " >";
-}
-
-section[id=projets] article p a:hover
-{
+     background-color: var(--defaultColorDark);
+     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     color : var(--defaultColorLight);
      font-weight: bold;
 }
 
-section[id=projets] article div p
+article[id=contacts] div a div img
 {
-     font-size : 14px;
-     color : #993333;
-     margin : 5px;
+     border-radius : 10px;
+     width : 60px;
+     height : 60px;
 }
 
-section[id=projets] p
+article[id=contacts] div a div p
 {
-     font-size : 14px;
-     color : #993333;
-     margin : 15px;
+     margin : 10px;
+     margin-top : -10px;
+     font-size : 1rem;
 }
 
+     /* Projets */
+
+article[id=projets] div
+{
+     display : flex;
+     justify-content: center;
+     flex-direction: column;
+     flex-wrap : wrap;
+}
+
+article[id=projets] > div > div
+{
+     border-radius : 10px;
+     background-color: var(--defaultColorLight);
+     margin : 10px;
+     padding : 10px;
+     display : flex;
+     flex-direction: row;
+     align-items: center;
+}
+
+article[id=projets] div div img
+{
+     width : 40%;
+     border-radius: 10px;
+     height: min-content;
+     margin : 10px;
+}
+
+article[id=projets] div div div h3
+{
+     color : var(--defaultColorDark);
+     font-family: "Red Hat Display";
+     margin : 10px;
+     font-size : 1.5rem;
+     text-align : center;
+}
+
+article[id=projets] div div div p
+{
+     color : var(--defaultColorDark);
+     margin : 10px 25px;
+     font-size : 1.1rem;
+}
+
+.projets_liens
+{
+     color : var(--defaultColorDark);
+     font-size : 1.3rem;
+     font-family: "Red Hat Display";
+     display: flex;
+     justify-content: flex-start !important;
+     flex-direction: row !important;
+     margin : 0 30px;
+}
+
+.projets_liens a
+{
+     margin : 10px;
+     padding : 10px 20px;
+     border-radius: 10px;
+     color : var(--defaultColorLight);
+     background-color: var(--defaultColorDark);
+}
+
+.projets_liens a:hover
+{
+     background-color: var(--defaultColorMedium);
+     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     color : var(--defaultColorLight);
+     font-weight: bold;
+}
+
+.projets_meta
+{
+     display: flex;
+     flex-direction: row !important;
+     align-content: space-between;
+}
 
 /* Footer */
 
@@ -287,17 +308,22 @@ footer
      text-align: center;
 }
 
+footer div
+{
+     display : flex;
+     justify-content: center;
+}
+
 footer div *
 {
-     margin : 5px 10px;
+     margin : 10px 20px;
      text-decoration: none;
-     color : #4d0000;
-     display : inline-block;
+     color : var(--defaultColorDark);
 }
 
 footer > p
 {
-     font-size : 14px;
-     color : #993333;
-     margin : 5px;
+     font-size : 1rem;
+     color : var(--defaultColorDark);
+     margin : 10px;
 }
