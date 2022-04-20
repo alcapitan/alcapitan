@@ -31,13 +31,6 @@ Je ne fais malheureusement que du front-end car je n'ai pas de serveur.
   
 **Allez voir les répertoires que j'ai épinglés et n'hésitez pas à m'envoyer vos retours via la rubrique "Discussions" ou "Issues" ! 👇**  
 
-## Mon projet en parallèle : Al Capitan News 📰
-
-En plus de la programmation, ma deuxième activité préféré est l'information/l'actualité.  
-C'est pour cela que j'ai créé un compte actu sur Instagram.  
-Je diffuse de l'actu générale mais je me concentre sur les infos peu diffusées. 
-N'hésitez pas à y faire un tour et à vous abonner : [alcapitan.news](https://www.instagram.com/alcapitan.news)  
-
 ## Collaborations 🤝
 
 Je suis volontaire pour des collaborations qui serait dans mes compétences.  
