@@ -2,37 +2,55 @@
 <html lang="fr">
      <head>
           <meta charset="UTF-8">
-          <meta name="description" content="Portfolio de Al Capitan. Vous trouverez ici ma biographie, les liens vers mes profils sur les réseaux, et mes projets. ">
+          <meta name="description" content="Portfolio de Al Capitan avec tout ses projets.">
           <meta name="viewport" content="width=device-width, initial-scale=1">
           <meta name="robots" content="index,follow">
           <link rel="canonical" href="https://alcapitan.github.io/alcapitan">
-          <meta name="theme-color" content="#cc0066">
+          <meta name="theme-color" content="rgb(230,0,92)">
           <title>Portfolio Al Capitan</title>
-	     <link type="text/css" rel="stylesheet" href="style.css">
-	     <link rel="icon" href="medias/alcapitan.jpg">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Red+Hat+Display&display=swap" rel="stylesheet">
+          <link rel="stylesheet" type="text/css" href="atui/kernel/main.css" >
+          <link rel="stylesheet" type="text/css" href="patch/main.css">
+          <link rel="icon" type="img/png" href="patch/icons/logo.png">
      </head>
      <body>
-          <header>
-               <div>
-                    <img src="medias/alcapitan.jpg" alt="Logo Personnel Al Capitan">
-                    <h1>Al Capitan</h1>
-               </div>
+          <header id="atuiKernel_Header">
+               <aside>
+                    <div>
+                         <div id="atuiKernel_HeaderBlockLeft">
+                         </div>
+                         <div id="atuiKernel_HeaderBlockCenter">
+                              <div id="atuiKernel_HeaderLogotype">
+                                   <a href="https://alcapitan.github.io/alcapitan">
+                                        <p>Al Capitan</p>
+                                   </a>
+                              </div>
+                         </div>
+                         <div id="atuiKernel_HeaderBlockRight">
+                              <div id="atuiKernel_ToolsSettingsDisplaymode">
+                                   <img alt="Mode clair activé" src="atui/kernel/medias/light.png">
+                              </div>
+                         </div>
+                    </div>
+                    <nav>
+                         <div>
+                              <a href="#">
+                                   <p>Catégorie</p>
+                              </a>
+                         </div>
+                    </nav>
+               </aside>
+               <article class="atuiKernel_ToolsCarousel" id="atuiKernel_HeaderCarousel">
+                    <div>
+                         <h2>Bienvenue sur mon portfolio !</h2>
+                    </div>
+               </article>
           </header>
-          <nav>
-               <div>
-                    <a href="#biographie">Biographie</a>
-               </div>
-               <!--<p><a href="#infos">Informations</a></p>-->
-               <div>
-                    <a href="#contacts">Contacts</a>
-               </div>
-               <div>
-                    <a href="#projets">Mes projets</a>
-               </div>
-          </nav>
           <section>
-               <article id="biographie">
-                    <h2>Biographie</h2>
+               <div class="atuiKernel_SectionText">
+                    <h3>About me in a nutshell</h3>
                     <p>
                          Bonjour et bienvenue sur mon portfolio,<br>
                          J'ai 15 ans, je vis dans le Vaucluse (France), et je suis en classe de première au lycée.<br>
@@ -49,152 +67,165 @@
                          C'est pour cela que j'ai créé un compte actu sur Instagram.
                          Je diffuse de l'actu générale mais je me concentre sur les infos peu diffusées. N'hésitez pas à y faire un tour et à vous abonner : <a href="https://www.instagram.com/alcapitan.news" target="_blank">alcapitan.news</a><br>
                     </p>
-               </article>
-          <!--<section id="infos">
-               <h2>Informations</h2>
-               <div>
-                    <article style="background : linear-gradient(to right, #e60000, #990000);">
-                         <h3>Al Capitan News</h3>
-                         <p>Je créé un média où je diffuse des sujets qu'on entend peu parler. Abonnez-vous à mon compte Instagram exclusivement pour les news ! @alcapitan.news</p>
-                         <em>08/07/21</em>
+               </div>
+               <div class="atuiKernel_SectionText">
+                    <h3>My main projects</h3>
+               </div>
+               <div class="atuiKernel_SectionCardStandard">
+                    <article>
+                         <div class="image">
+                              <img src="patch/icons/atui.png" alt="ATUI Icon">
+                         </div>
+                         <div class="text">
+                              <h3>ATUI</h3>
+                              <p>Front-end library to help you to build your website with more lighter and easier tools.</p>
+                              <div>
+                                   <a href="https://github.com/alcapitan/atui">
+                                        <div class="atuiKernel_ButtonTertiary">
+                                             <p>Github repository</p>
+                                        </div>
+                                   </a>
+                                   <a href="https://alcapitan.github.io/atui">
+                                        <div class="atuiKernel_ButtonTertiary">
+                                             <p>Website</p>
+                                        </div>
+                                   </a>
+                              </div>
+                         </div>
                     </article>
-                    <article style="background : linear-gradient(to right, #e60000, #990000);">
-                         <h3>Al Capitan News</h3>
-                         <p>Je créé un média où je diffuse des sujets qu'on entend peu parler. Abonnez-vous à mon compte Instagram exclusivement pour les news ! @alcapitan.news</p>
-                         <em>08/07/21</em>
+                    <article>
+                         <div class="image">
+                              <img src="patch/icons/weather.png" alt="AT Weather Icon">
+                         </div>
+                         <div class="text">
+                              <h3>AT Weather</h3>
+                              <p>Give you the weather of a city in metropolitan France thanks to Meteo Concept's API.</p>
+                              <div>
+                                   <a href="https://github.com/alcapitan/weather">
+                                        <div class="atuiKernel_ButtonTertiary">
+                                             <p>Github repository</p>
+                                        </div>
+                                   </a>
+                                   <a href="https://alcapitan.github.io/weather">
+                                        <div class="atuiKernel_ButtonTertiary">
+                                             <p>Website</p>
+                                        </div>
+                                   </a>
+                              </div>
+                         </div>
+                    </article>
+                    <article>
+                         <div class="image">
+                              <img src="patch/illustrations/cards_ver_1.jpg" alt="illustration présentation">
+                         </div>
+                         <div class="text">
+                              <h3>Titre</h3>
+                              <p>Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte.</p>
+                              <div>
+                                   <a href="#">
+                                        <div class="atuiKernel_ButtonTertiary">
+                                             <p>Lien</p>
+                                        </div>
+                                   </a>
+                                   <a href="#">
+                                        <div class="atuiKernel_ButtonTertiary">
+                                             <p>Lien</p>
+                                        </div>
+                                   </a>
+                              </div>
+                         </div>
+                    </article>
+                    <article>
+                         <div class="image">
+                              <img src="patch/illustrations/cards_ver_1.jpg" alt="illustration présentation">
+                         </div>
+                         <div class="text">
+                              <h3>Titre</h3>
+                              <p>Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte.</p>
+                              <div>
+                                   <a href="#">
+                                        <div class="atuiKernel_ButtonTertiary">
+                                             <p>Lien</p>
+                                        </div>
+                                   </a>
+                                   <a href="#">
+                                        <div class="atuiKernel_ButtonTertiary">
+                                             <p>Lien</p>
+                                        </div>
+                                   </a>
+                              </div>
+                         </div>
                     </article>
                </div>
-          </section>-->
-               <article id="contacts">
-                    <h2>Contacts</h2>
-                    <p>Voici mes profils sur les sites extérieurs :</p>
-                    <p><em>Cliquez sur un carré pour voir mon profil sur le site.</em></p>
-                    <div>
-                         <a href="https://instagram.com/al.capitan">
+               <div class="atuiKernel_SectionText">
+                    <h3>News</h3>
+               </div>
+               <div class="atuiKernel_SectionCardOverlay">
+                    <article>
+                         <div class="image">
+                              <img src="patch/illustrations/cards_hor_3.jpg" alt="illustration présentation">
+                         </div>
+                         <div class="text">
+                              <h3>Titre</h3>
+                              <p>Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte.</p>
                               <div>
-                                   <img src="medias/instagram.png" alt="Logo Instagram"/>
-                                   <p>Instagram</p>
-                              </div>
-                         </a>
-                         <a href="https://github.com/alcapitan">
-                              <div>
-                                   <img src="medias/github.png" alt="Logo GitHub"/>
-                                   <p>GitHub</p>
-                              </div>
-                         </a>
-                         <a href="mailto: alexandre.boyer29@gmail.com">
-                              <div>
-                                   <img src="medias/mail.png" alt="Icone Mail"/>
-                                   <p>Mail</p>
-                              </div>
-                         </a>
-                         <a href="https://www.facebook.com/profile.php?id=100073597717888">
-                              <div>
-                                   <img src="medias/facebook.png" alt="Logo Facebook"/>
-                                   <p>Facebook</p>
-                              </div>
-                         </a>
-                         <a href="https://twitter.com/alcapitan84">
-                              <div>
-                                   <img src="medias/twitter.png" alt="Logo Twitter"/>
-                                   <p>Twitter</p>
-                              </div>
-                         </a>
-                         <a href="https://fr.wikipedia.org/wiki/Utilisateur:Al_Capitan">
-                              <div>
-                                   <img src="medias/wikipedia.png" alt="Logo Wikipédia"/>
-                                   <p>Wikipédia</p>
-                              </div>
-                         </a>
-                    </div>
-               </article>
-               <article id="projets">
-                    <h2>Mes projets</h2>
-                    <p>Possibilité des status : en projet, en conception, terminé, en rénovation, fin du support, abandonné.</p>
-                    <p>Informations : j'ai réalisé beaucoup d'autres projets mais soit ils sont très anciens (bogués et difficile à publier sur github en l'état), soit on été déjà supprimés et irrécupérables, ou soit ils sont à usage personnel ou confidentiel que je souhaite pas vous faire voir.</p>
-                    <div>
-                         <div>
-                              <img src="medias/atui.png" alt="Logo ATUI"/>
-                              <div>
-                                   <h3>ATUI</h3>
-                                   <p>Framework web front-end pour l'interface graphique. ATUI est plus facile d'utilisation et plus personnalisable que Bootstrap.</p>
-                                   <div class="projets_liens">
-                                        <a href="https://alcapitan.github.io/atui">Site en ligne</a>
-                                        <a href="https://github.com/alcapitan/atui">Répertoire GitHub</a>
-                                   </div>
-                                   <div class="projets_meta">
-                                        <p>Dernière modification en novembre 2021</p>
-                                        <p>Statut : en conception</p>
-                                   </div>
+                                   <a href="#">
+                                        <div class="atuiKernel_ButtonTertiary">
+                                             <p>Lien</p>
+                                        </div>
+                                   </a>
+                                   <a href="#">
+                                        <div class="atuiKernel_ButtonTertiary">
+                                             <p>Lien</p>
+                                        </div>
+                                   </a>
                               </div>
                          </div>
-                         <div>
-                              <img src="medias/ankrypt.jpg" alt="Logo anKrypt"/>
+                    </article>
+                    <article>
+                         <div class="image">
+                              <img src="patch/illustrations/cards_ver_3.jpg" alt="illustration présentation">
+                         </div>
+                         <div class="text">
+                              <h3>Titre</h3>
+                              <p>Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte. Texte.</p>
                               <div>
-                                   <h3>anKrypt</h3>
-                                   <p>Algorithme JavaScript et Python pour chiffrer du texte</p>
-                                   <div class="projets_liens">
-                                        <a href="https://github.com/alcapitan/ankrypt">Répertoire GitHub</a>
-                                   </div>
-                                   <div class="projets_meta">
-                                        <p>Dernière modification en octobre 2021</p>
-                                        <p>Statut : en conception</p>
-                                   </div>
+                                   <a href="#">
+                                        <div class="atuiKernel_ButtonTertiary">
+                                             <p>Lien</p>
+                                        </div>
+                                   </a>
+                                   <a href="#">
+                                        <div class="atuiKernel_ButtonTertiary">
+                                             <p>Lien</p>
+                                        </div>
+                                   </a>
                               </div>
                          </div>
-                         <div>
-                              <img src="medias/console.png" alt="Icone console"/>
-                              <div>
-                                   <h3>Calcul Conso Forfait</h3>
-                                   <p>Script Python qui permet de calculer combien de data restera t'il sur notre forfait mobile à la fin du mois.</p>
-                                   <div class="projets_liens">
-                                        <a href="https://github.com/alcapitan/calcul-conso-forfait">Répertoire GitHub</a>
-                                   </div>
-                                   <div class="projets_meta">
-                                        <p>Dernière modification en octobre 2021</p>
-                                        <p>Statut : terminé</p>
-                                   </div>
-                              </div>
-                         </div>
-                         <div>
-                              <img src="medias/website.png" alt="Icone site web"/>
-                              <div>
-                                   <h3>Modèle Présentation de Logos (MPL)</h3>
-                                   <p>Cette base de code permet de créer et d'afficher ses logos sur un site web.</p>
-                                   <div class="projets_liens">
-                                        <a href="https://github.com/alcapitan/mpl">Répertoire GitHub</a>
-                                   </div>
-                                   <div class="projets_meta">
-                                        <p>Dernière modification en septembre 2021</p>
-                                        <p>Statut : terminé</p>
-                                   </div>
-                              </div>
-                         </div>
-                         <div>
-                              <img src="https://img.icons8.com/cotton/300/000000/student-male--v1.png" alt="Icone projet Tim Berners Lee"/>
-                              <div>
-                                   <h3>Biographie Tim Berners Lee</h3>
-                                   <p>Projet de SNT par Alexandre BOYER et Florentin LIU</p>
-                                   <div class="projets_liens">
-                                        <a href="https://alcapitan.github.io/tim-berners-lee">Site en ligne</a>
-                                        <a href="https://github.com/alcapitan/tim-berners-lee">Répertoire GitHub</a>
-                                   </div>
-                                   <div class="projets_meta">
-                                        <p>Dernière modification en avril 2021</p>
-                                        <p>Statut : fin de support</p>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-               </article>
+                    </article>
+               </div>
           </section>
-          <footer>
-               <div>
-                    <!--<p onclick="modeSombre()">Mode sombre</p>-->
-                    <a href="#">Remonter</a>
-                    <!--<a href="">Conditions d'utilisation</a>-->
+          <footer id="atuiKernel_FooterContrast">
+               <div id="atuiKernel_FooterScrolltop">
+                    <a href="#">
+                         <img alt="Revenir au début" src="atui/kernel/medias/scrolltop.png">
+                    </a>
                </div>
-               <p>Dernière modification de cette page le 6 novembre 2021</p>
+               <div class="atuiKernel_FooterContentsRow">
+                    <h3>Contacts</h3>
+                    <div id="atuiKernel_ToolsContactCompact">
+                         <a href="https://github.com/alcapitan/atui"><img src="atui/kernel/medias/github.png" alt="Allez voir mon compte GitHub. "></a>
+                         <a href="https://instagram.com/al.capitan"><img src="atui/kernel/medias/instagram.png" alt="Allez voir mon compte Instagram. "></a>
+                         <a href="https://twitter.com/alcapitan84"><img src="atui/kernel/medias/twitter.png" alt="Allez voir mon compte Twitter. "></a>
+                         <a href="https://www.facebook.com/profile.php?id=100073597717888"><img src="atui/kernel/medias/facebook.png" alt="Allez voir mon compte Facebook. "></a>
+                    </div>
+               </div>
+               <div id="atuiKernel_FooterInfo">
+               </div>
           </footer>
+          <aside id="atuiKernel_Notification">
+          </aside>
+          <script src="atui/kernel/main.js"></script>
+          <script src="patch/main.js"></script>
      </body>
 </html>
