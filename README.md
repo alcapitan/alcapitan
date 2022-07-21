@@ -1,39 +1,36 @@
-# Bonjour et bienvenue sur mon profil 👋
+# Hello, welcome on my GitHub profile ! 👋
 
-## Qui suis-je ? 💁
-
-J'ai 15 ans, je vis dans le Vaucluse (France), et je suis en classe de première au lycée.  
-La programmation est une de mes activités préférés. Vous verrez ici tout mes projets présentables.
+## Who am I ? 💁
+I am 16 years old and I am living in France.  
+My favorite quote is : _If you are against the world, then you are made to change the world. (Indian quote)_  
+I've been a coder for around 2 years. I am passionate about Linux and about open-source in general.  
+My main project is [ATUI](https://github.com/alcapitan/atui). It's a web library (like Bootstrap) to help me and you (later) to build websites.  
   
-Ma citation est : "Si tu es contre le monde, alors tu es fait pour changer le monde." (proverbe indien)  
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alcapitan&layout=compact)](https://github.com/anuraghazra/github-readme-stats)  
+[![GitHub stats of Al Capitan](https://github-readme-stats.vercel.app/api?username=alcapitan&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)  
   
-Suivez-moi pour voir toutes les avancées ! 😊  
+Follow me to see all my progress ! 😊  
+_You can also go to my [https://alcapitan.github.io/alcapitan](portfolio)._  
   
-_Allez voir mon portfolio pour en savoir plus et pour voir mes profils sur d'autres sites : [https://alcapitan.github.io/alcapitan](https://alcapitan.github.io/alcapitan)_
-
-## Mes activités 👨‍💻
-
-Je suis actuellement en train de rénover tout mes projets afin de les rendre viables.  
-Vous voyez sur ce profil qu'une petite partie de mon travail déjà accompli.  
-Je ne fais malheureusement que du front-end car je n'ai pas de serveur.
-
-**Les languages que je pratique sont :**
-* HTML 
-* CSS
-* JavaScript
-* Python
+## My skills 👨‍💻
+I don't have a server, consequently I can't doing back-end in my projects.  
+Later, I want to make desktop applications.  
   
-**Et prochainement :**
-* C++
-* Java
-
-**Les particularités de mes créations :** leur vitesse (battant largement les autres), leur accesibilité, et leur simplicité.  
+**My languages :**  
+![HTML Icon](https://img.icons8.com/color/60/html-5--v1.png)
+![CSS Icon](https://img.icons8.com/color/60/css3.png)
+![JavaScript Icon](https://img.icons8.com/color/60/javascript--v1.png)
+![Python Icon](https://img.icons8.com/color/60/python--v1.png)  
   
-**Allez voir les répertoires que j'ai épinglés et n'hésitez pas à m'envoyer vos retours via la rubrique "Discussions" ou "Issues" ! 👇**  
+**In addition, soon :**  
+![C++ Icon](https://img.icons8.com/color/60/c-plus-plus-logo.png)  
+And a lot of more...
+  
+**My aims in my works :** the speed, the easiness, and the accessibility.  
+  
+**Go see the repositories I have pinned ! 👇**  
 
 ## Collaborations 🤝
+I will be very grateful for any help you can give me on my projects.  
+I already collaborate with some of my friends.  
 
-Je suis volontaire pour des collaborations qui serait dans mes compétences.  
-Envoyez moi un message (via les contacts dans mon portfolio), pour faire un échange de travail.  
-  
-N'hésitez pas à m'aider à faire évoluer mes projets via les "Discussions" "Issues" et le rôle "Collaborateur".  

@@ -5,3 +5,8 @@
      background-image: url(illustrations/wallpaper.jpg)
 }
 
+.atuiKernel_SectionText p
+{
+     overflow: overlay; /* ATUI */
+}
+
