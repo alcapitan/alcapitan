@@ -10,7 +10,7 @@ My main project is [ATUI](https://github.com/alcapitan/atui). It's a web library
 [![GitHub stats of Al Capitan](https://github-readme-stats.vercel.app/api?username=alcapitan&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)  
   
 Follow me to see all my progress ! 😊  
-_You can also go to my [https://alcapitan.github.io/alcapitan](portfolio)._  
+_You can also go to my [portfolio](https://alcapitan.github.io/alcapitan)._  
   
 ## My skills 👨‍💻
 I don't have a server, consequently I can't doing back-end in my projects.  
