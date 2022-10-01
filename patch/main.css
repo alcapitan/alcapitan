@@ -10,3 +10,8 @@
      overflow: overlay; /* ATUI */
 }
 
+.atuiKernel_SectionText img
+{
+     margin : 10px 5px; /* ATUI ou pas (pas pratique pour des emojis par ex) */
+}
+

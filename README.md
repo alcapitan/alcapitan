@@ -23,7 +23,9 @@ Later, I want to make desktop applications.
 ![Python Icon](https://img.icons8.com/color/60/python--v1.png)  
   
 **In addition, soon :**  
-![C++ Icon](https://img.icons8.com/color/60/c-plus-plus-logo.png)  
+![ElectronJS Icon](/patch/icons/electron.png)
+![C++ Icon](https://img.icons8.com/color/60/c-plus-plus-logo.png)
+![Rust Icon](https://img.icons8.com/external-tal-revivo-bold-tal-revivo/60/external-rust-is-a-multi-paradigm-system-programming-language-logo-bold-tal-revivo.png)  
 And a lot of more...
   
 **My aims in my works :** the speed, the easiness, and the accessibility.  
