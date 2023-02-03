@@ -1,7 +1,7 @@
 # Hello, welcome on my GitHub profile ! 👋
 
 ## Who am I ? 💁
-I am 16 years old and I am living in France.  
+I am 17 years old and I am living in France.  
 My favorite quote is : _If you are against the world, then you are made to change the world. (Indian quote)_  
 I've been a coder for around 2 years. I am passionate about Linux and about open-source in general.  
 My main project is [ATUI](https://github.com/alcapitan/atui). It's a web library (like Bootstrap) to help me and you (later) to build websites.  
