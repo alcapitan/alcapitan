@@ -1,0 +1,136 @@
+/*!
+ * ATUI v0.3.1 (https://github.com/alcapitan/atui)
+ * This code is released under GNU General Public License (https://github.com/alcapitan/atui/blob/dev/LICENSE.md)
+ */
+
+/* Section containers management */
+
+#atuiKernel_Body,
+#atuiKernel_Section {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+@media (min-width: 768px) /* Computers */ {
+    #atuiKernel_Body,
+    #atuiKernel_Section {
+        flex-direction: row;
+    }
+
+    #atuiKernel_Body > *:not(:last-child),
+    #atuiKernel_Section > *:not(:last-child) {
+        border-right: 1px solid var(--atuiKernel_ColorschemeOB2);
+    }
+}
+
+@media (max-width: 767px) /* Smartphones */ {
+    #atuiKernel_Body,
+    #atuiKernel_Section {
+        flex-direction: column-reverse;
+    }
+
+    #atuiKernel_Body > *:not(:last-child),
+    #atuiKernel_Section > *:not(:last-child) {
+        border-bottom: 1px solid var(--atuiKernel_ColorschemeOB2);
+    }
+}
+
+#atuiKernel_Body > *:not(.atuiKernel_BodyContent),
+#atuiKernel_Section > * {
+    padding: 10px;
+}
+
+.atuiKernel_BodyContent,
+.atuiKernel_SectionContent {
+    flex: 1;
+}
+
+.atuiKernel_BodyContent {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#atuiKernel_Section {
+    flex: 1;
+}
+
+.atuiKernel_SectionContent > * {
+    margin: 20px 0;
+}
+
+.atuiKernel_BodyContent > *:first-child,
+.atuiKernel_SectionContent > *:first-child {
+    margin-top: 0;
+}
+
+.atuiKernel_BodyContent > *:last-child,
+.atuiKernel_SectionContent > *:last-child {
+    margin-bottom: 0;
+}
+
+/* Breadcrumb */
+
+.atuiKernel_SectionBreadcrumb > * {
+    display: inline-block;
+    margin: 0;
+}
+
+.atuiKernel_SectionBreadcrumb > *:last-child {
+    color: var(--atuiKernel_ColorschemeOA5);
+}
+
+.atuiKernel_SectionBreadcrumb > *:not(:last-child) {
+    color: var(--atuiKernel_ColorschemeOBF);
+    margin-right: 10px;
+}
+
+.atuiKernel_SectionBreadcrumb > *:not(:last-child)::after {
+    content: "/";
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+/* Square link */
+
+.atuiKernel_SectionSquarelink {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.atuiKernel_SectionSquarelink > a {
+    text-decoration: none;
+    min-width: 100px;
+    height: 100px;
+    padding: 15px;
+    border-radius: var(--atuiKernel_Borderradius);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    row-gap: 15px;
+    border: 1px solid var(--atuiKernel_ColorschemeOB5);
+    color: var(--atuiKernel_ColorschemeOBF);
+}
+
+.atuiKernel_SectionSquarelink > a:hover {
+    border-color: var(--atuiKernel_ColorschemeOA5);
+    background-color: var(--atuiKernel_ColorschemeOA1);
+    color: var(--atuiKernel_ColorschemeOA5);
+    font-weight: bold;
+}
+
+.atuiKernel_SectionSquarelink > a * {
+    margin: 0;
+    color: inherit;
+    font-weight: inherit;
+}
+
+.atuiKernel_SectionSquarelink > a img {
+    height: 48px;
+}
+
+.atuiKernel_SectionSquarelink > a p {
+    font-family: var(--atuiKernel_FontsTitle);
+}
