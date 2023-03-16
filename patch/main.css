@@ -1,13 +1,16 @@
-/* Global */
-
 .atuiKernel_ToolsCarousel {
     background-image: url(illustrations/wallpaper.jpg);
 }
 
-.atuiKernel_SectionText p {
-    overflow: overlay; /* ATUI */
+/* Bug when there is no navbar */
+
+#atuiKernel_FooterInfo {
+    margin-bottom: 0;
 }
 
-.atuiKernel_SectionText img {
-    margin: 10px 5px; /* ATUI ou pas (pas pratique pour des emojis par ex) */
+/* Margin inconsistencies on bottom bar of header */
+
+#atuiKernel_Header > aside > nav {
+    min-height: auto;
+    padding: 10px 0;
 }
