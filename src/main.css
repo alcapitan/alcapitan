@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&family=Red+Hat+Display:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&family=Red+Hat+Display:wght@700&display=swap");
 
 :root {
     --atuiKernel_FontsTitle: "Red Hat Display", auto;
@@ -7,10 +7,10 @@
 }
 
 .atuiKernel_ToolsCarousel {
-    background-image: url(illustrations/wallpaper.jpg);
+    background-image: url("illustrations/wallpaper.jpg");
 }
 
 .documents {
-    margin : 10px;
+    margin: 10px;
     overflow-x: auto;
 }
