@@ -12,4 +12,5 @@
 
 .documents {
     margin : 10px;
+    overflow-x: auto;
 }
