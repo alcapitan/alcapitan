@@ -1,16 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&family=Red+Hat+Display:wght@700&display=swap');
+
+:root {
+    --atuiKernel_FontsTitle: "Red Hat Display", auto;
+    --atuiKernel_FontsText: "Montserrat", auto;
+    --atuiKernel_FontsSpecial: "Pacifico", auto;
+}
+
 .atuiKernel_ToolsCarousel {
     background-image: url(illustrations/wallpaper.jpg);
 }
 
-/* Bug when there is no navbar */
-
-#atuiKernel_FooterInfo {
-    margin-bottom: 0;
-}
-
-/* Margin inconsistencies on bottom bar of header */
-
-#atuiKernel_Header > aside > nav {
-    min-height: auto;
-    padding: 10px 0;
+.documents {
+    margin : 10px;
 }
