@@ -4,5 +4,5 @@
     "language": "en",
     "useGitignore": true,
     "ignorePaths": ["/node_modules", "/dist"],
-    "words": ["atui", "Lastedited", "Phonebook", "Pygame", "Meteo"]
+    "words": ["atui", "Lastedited", "Phonebook", "Pygame", "Meteo", "Tabler"]
 }
