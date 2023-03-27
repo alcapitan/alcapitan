@@ -2,10 +2,12 @@
 
 ## Who am I ? 💁
 
-I am 17 years old and I am living in France.  
-My favorite quote is : _If you are against the world, then you are made to change the world. (Indian quote)_  
-I've been a coder for around 2 years. I am passionate about Linux and about open-source in general.  
-My main project is [ATUI](https://github.com/alcapitan/atui). It's a web library (like Bootstrap) to help me and you (later) to build websites.
+I'm a french 17 years old developer in high school.  
+I've been a coder for around 4 years. I am passionate about Linux and about open-source in general.  
+I'm specializing in web development, UI/UX, and design. Later, I want to learn how to code desktop applications.  
+My main project is [ATUI](https://github.com/alcapitan/atui).
+It's a web library (like Bootstrap) to help building websites. Besides, my portfolio is built with that !  
+My favorite quote is : _If you are against the world, then you are made to change the world. (Indian quote)_
 
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alcapitan&layout=compact)](https://github.com/anuraghazra/github-readme-stats)  
 [![GitHub stats of Al Capitan](https://github-readme-stats.vercel.app/api?username=alcapitan&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
@@ -15,26 +17,31 @@ _You can also go to my [portfolio](https://alcapitan.github.io/alcapitan)._
 
 ## My skills 👨‍💻
 
-I don't have a server, consequently I can't doing back-end in my projects.  
-Later, I want to make desktop applications.
+Unfortunately I don't have a server, so I cannot have back-end or proper deployment in my projects.
 
-**My languages :**  
-![HTML Icon](https://img.icons8.com/color/60/html-5--v1.png)
-![CSS Icon](https://img.icons8.com/color/60/css3.png)
-![JavaScript Icon](https://img.icons8.com/color/60/javascript--v1.png)
-![Python Icon](https://img.icons8.com/color/60/python--v1.png)
+**My knowledge :**  
+<img alt="HTML Icon" src="https://cdn.simpleicons.org/html5" width="60" height="60" />
+<img alt="CSS Icon" src="https://cdn.simpleicons.org/css3" width="60" height="60" />
+<img
+    alt="JavaScript Icon"
+    src="https://cdn.simpleicons.org/javascript"
+    width="60" height="60"
+/>
+<img alt="Python Icon" src="https://cdn.simpleicons.org/python" width="60" height="60" />
+<img alt="NPM Icon" src="https://cdn.simpleicons.org/npm" width="60" height="60" />
 
 **In addition, soon :**  
-![ElectronJS Icon](/patch/icons/electron.png)
-![C++ Icon](https://img.icons8.com/color/60/c-plus-plus-logo.png)
-![Rust Icon](https://img.icons8.com/external-tal-revivo-bold-tal-revivo/60/external-rust-is-a-multi-paradigm-system-programming-language-logo-bold-tal-revivo.png)  
-And a lot of more...
+<img alt="Sass Icon" src="https://cdn.simpleicons.org/sass" width="60" height="60" />
+<img alt="ElectronJS Icon" src="https://cdn.simpleicons.org/electron" width="60" height="60" />
+<img alt="Qt Icon" src="https://cdn.simpleicons.org/qt" width="60" height="60" />
+<img alt="GTK Icon" src="https://cdn.simpleicons.org/gtk" width="60" height="60" />
+<img alt="Bootstrap Icon" src="https://cdn.simpleicons.org/bootstrap" width="60" height="60" />
+<img alt="C++ Icon" src="https://cdn.simpleicons.org/c++" width="60" height="60" />
+<img alt="Rust Icon" src="https://cdn.simpleicons.org/rust" width="60" height="60" />
 
-**My aims in my works :** the speed, the easiness, and the accessibility.
-
-**Go see the repositories I have pinned ! 👇**
+My aims in my works are the lightness and the UI/UX.  
+**Look my repositories below ! 👇**
 
 ## Collaborations 🤝
 
-I will be very grateful for any help you can give me on my projects.  
-I already collaborate with some of my friends.
+I will be very grateful for any help you can give me on my projects. I already had some projects with my friends.
