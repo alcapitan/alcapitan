@@ -38,9 +38,6 @@
         "url": "https://github.com/alcapitan/alcapitan/issues"
     },
     "homepage": "https://github.com/alcapitan/alcapitan#readme",
-    "dependencies": {
-        "simple-icons": "^8.8.0"
-    },
     "devDependencies": {
         "@babel/cli": "^7.21.0",
         "@babel/core": "^7.21.3",

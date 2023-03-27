@@ -16,3 +16,9 @@
 .atuiKernel_SectionCard article {
     max-width: 300px;
 }
+
+/* Tabler icons */
+
+#atuiKernel_ToolsContactCompact > a > i {
+    font-size: 50px;
+}
