@@ -10,4 +10,10 @@ updates:
       time: "07:00"
       timezone: "Europe/Paris"
     commit-message:
-      prefix: "build"
+      prefix: "build(npm)"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: "build(gh-actions)"
