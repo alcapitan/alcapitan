@@ -40,7 +40,7 @@
     "homepage": "https://github.com/alcapitan/alcapitan#readme",
     "devDependencies": {
         "@babel/cli": "^7.21.0",
-        "@babel/core": "^7.21.3",
+        "@babel/core": "^7.21.4",
         "@babel/eslint-parser": "^7.21.3",
         "@babel/preset-env": "^7.21.4",
         "autoprefixer": "^10.4.14",
