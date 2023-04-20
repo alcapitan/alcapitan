@@ -1,5 +1,5 @@
 /*!
- * ATUI v0.3.1 (https://github.com/alcapitan/atui)
+ * ATUI v0.3.2 (https://github.com/alcapitan/atui)
  * This code is released under GNU General Public License (https://github.com/alcapitan/atui/blob/dev/LICENSE.md)
  */
 
@@ -161,11 +161,9 @@
 
 @media (max-width: 767px) /* Smartphones */ {
     .atuiKernel_NavigationBar {
-        width: calc(100% - 10px);
+        width: calc(100% - 20px);
         padding: 5px;
-        position: fixed;
-        left: 0;
-        right: 0;
+        position: sticky;
         bottom: 0;
         z-index: 10;
         background-color: var(--atuiKernel_ColorschemeOB1);

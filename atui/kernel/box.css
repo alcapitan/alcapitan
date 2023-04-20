@@ -1,5 +1,5 @@
 /*!
- * ATUI v0.3.1 (https://github.com/alcapitan/atui)
+ * ATUI v0.3.2 (https://github.com/alcapitan/atui)
  * This code is released under GNU General Public License (https://github.com/alcapitan/atui/blob/dev/LICENSE.md)
  */
 
@@ -23,6 +23,13 @@
 .atuiKernel_SectionBox.optionAccent {
     border-color: var(--atuiKernel_ColorschemeOA5);
     background-color: var(--atuiKernel_ColorschemeOA1);
+}
+
+.atuiKernel_SectionBox.optionAlert *,
+.atuiKernel_SectionBox.optionWarning *,
+.atuiKernel_SectionBox.optionInfo *,
+.atuiKernel_SectionBox.optionSuccess * {
+    color: #000;
 }
 
 .atuiKernel_SectionBox.optionAlert {

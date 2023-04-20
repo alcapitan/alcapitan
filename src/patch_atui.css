@@ -1,22 +1,3 @@
-/* Bug when there is no navbar */
-
-#atuiKernel_FooterInfo {
-    margin-bottom: 0;
-}
-
-/* Margin inconsistencies on bottom bar of header */
-
-#atuiKernel_Header > aside > nav {
-    min-height: auto;
-    padding: 10px 0;
-}
-
-/* Cards are too much big on the screen ! */
-
-.atuiKernel_SectionCard article {
-    max-width: 300px;
-}
-
 /* Tabler icons */
 
 #atuiKernel_ToolsContactCompact > a > i {

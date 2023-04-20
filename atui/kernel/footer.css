@@ -1,5 +1,5 @@
 /*!
- * ATUI v0.3.1 (https://github.com/alcapitan/atui)
+ * ATUI v0.3.2 (https://github.com/alcapitan/atui)
  * This code is released under GNU General Public License (https://github.com/alcapitan/atui/blob/dev/LICENSE.md)
  */
 
@@ -191,10 +191,4 @@
     display: block;
     color: var(--atuiKernel_ColorschemeOA6);
     margin: 10px;
-}
-
-@media (max-width: 767px) /* Smartphones */ {
-    #atuiKernel_FooterInfo {
-        margin-bottom: 100px; /* Due to the possible navbar over the footer info */
-    }
 }

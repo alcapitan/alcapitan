@@ -1,9 +1,13 @@
 /*!
- * ATUI v0.3.1 (https://github.com/alcapitan/atui)
+ * ATUI v0.3.2 (https://github.com/alcapitan/atui)
  * This code is released under GNU General Public License (https://github.com/alcapitan/atui/blob/dev/LICENSE.md)
  */
 
 /* Global */
+
+.atuiKernel_SectionText > * {
+    margin: 10px 5px;
+}
 
 .atuiKernel_SectionText h1,
 .atuiKernel_SectionText h2,
@@ -15,10 +19,6 @@
     color: var(--atuiKernel_ColorschemeOA6);
     font-family: var(--atuiKernel_FontsTitle);
     margin: 15px 0;
-}
-
-.atuiKernel_SectionText p {
-    margin: 0 5px;
 }
 
 .atuiKernel_SectionText a:hover,

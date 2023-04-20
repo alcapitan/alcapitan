@@ -9,8 +9,8 @@ My main project is [ATUI](https://github.com/alcapitan/atui).
 It's a web library (like Bootstrap) to help building websites. Besides, my portfolio is built with that !  
 My favorite quote is : _If you are against the world, then you are made to change the world. (Indian quote)_
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alcapitan&layout=compact&theme=gruvbox_light)](https://github.com/anuraghazra/github-readme-stats)  
-[![GitHub stats of Al Capitan](https://github-readme-stats.vercel.app/api?username=alcapitan&count_private=true&show_icons=true&theme=gruvbox_light)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alcapitan&layout=compact&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)  
+[![GitHub stats of Al Capitan](https://github-readme-stats.vercel.app/api?username=alcapitan&count_private=true&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
 
 Follow me to see all my progress ! 😊  
 _You can also go to my [portfolio](https://alcapitan.github.io/alcapitan)._
@@ -48,6 +48,6 @@ I will be very grateful for any help you can give me on my projects. I already h
 
 ## Contact me
 
-**> To contact me, you can instead create an issue in one of my projects and write your message.**
-<a href="https://instagram.com/al.capitan"><img alt="Instagram Icon" src="https://cdn.simpleicons.org/instagram" width="60" height="60" /></a>
+**> To contact me, you can instead create an issue in one of my projects and write your message.**  
+<a href="https://instagram.com/al.capitan"><img alt="Instagram Icon" src="https://cdn.simpleicons.org/instagram" width="60" height="60" /></a>  
 <a href="https://pewtix.com/@alcapitan"><img alt="Mastodon Icon" src="https://cdn.simpleicons.org/mastodon" width="60" height="60" /></a>
