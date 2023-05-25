@@ -1,2 +1,2 @@
-"use strict";/* Patch ATUI */atuiKernel_FooterLastedited(20,4,2023),atuiKernel_ColorschemeGeneratorAuto([255,102,0]);
+"use strict";/* Patch ATUI */atuiKernel_FooterLastedited(25,5,2023);
 //# sourceMappingURL=main.js.map

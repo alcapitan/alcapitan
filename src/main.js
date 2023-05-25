@@ -1,3 +1,2 @@
 /* Patch ATUI */
-atuiKernel_FooterLastedited(20, 4, 2023);
-atuiKernel_ColorschemeGeneratorAuto([255, 102, 0]);
+atuiKernel_FooterLastedited(25, 5, 2023);

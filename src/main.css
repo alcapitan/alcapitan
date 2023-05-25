@@ -4,10 +4,7 @@
     --atuiKernel_FontsTitle: "Red Hat Display", auto;
     --atuiKernel_FontsText: "Montserrat", auto;
     --atuiKernel_FontsSpecial: "Pacifico", auto;
-}
-
-.atuiKernel_ToolsCarousel {
-    background-image: url("../assets/illustrations/wallpaper.jpg");
+    --atuiKernel_Color-Accent: 24 !important;
 }
 
 .documents {
