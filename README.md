@@ -33,9 +33,9 @@ Unfortunately I don't have a server, so I cannot have back-end or proper deploym
 **In addition, soon :**  
 <img alt="Sass Icon" src="https://cdn.simpleicons.org/sass" width="60" height="60" />
 <img alt="ElectronJS Icon" src="https://cdn.simpleicons.org/electron" width="60" height="60" />
+<img alt="Typescript Icon" src="https://cdn.simpleicons.org/typescript" width="60" height="60" />
 <img alt="Qt Icon" src="https://cdn.simpleicons.org/qt" width="60" height="60" />
 <img alt="GTK Icon" src="https://cdn.simpleicons.org/gtk" width="60" height="60" />
-<img alt="Bootstrap Icon" src="https://cdn.simpleicons.org/bootstrap" width="60" height="60" />
 <img alt="C++ Icon" src="https://cdn.simpleicons.org/c++" width="60" height="60" />
 <img alt="Rust Icon" src="https://cdn.simpleicons.org/rust" width="60" height="60" />
 
@@ -49,5 +49,5 @@ I will be very grateful for any help you can give me on my projects. I already h
 ## Contact me
 
 **> To contact me, you can instead create an issue in one of my projects and write your message.**  
-<a href="https://instagram.com/al.capitan"><img alt="Instagram Icon" src="https://cdn.simpleicons.org/instagram" width="60" height="60" /></a>  
+<a href="https://instagram.com/al.capitan"><img alt="Instagram Icon" src="https://cdn.simpleicons.org/instagram" width="60" height="60" /></a>
 <a href="https://pewtix.com/@alcapitan"><img alt="Mastodon Icon" src="https://cdn.simpleicons.org/mastodon" width="60" height="60" /></a>
