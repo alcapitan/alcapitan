@@ -50,4 +50,4 @@ I will be very grateful for any help you can give me on my projects. I already h
 
 **> To contact me, you can instead create an issue in one of my projects and write your message.**  
 <a href="https://instagram.com/al.capitan"><img alt="Instagram Icon" src="https://cdn.simpleicons.org/instagram" width="60" height="60" /></a>
-<a href="https://pewtix.com/@alcapitan"><img alt="Mastodon Icon" src="https://cdn.simpleicons.org/mastodon" width="60" height="60" /></a>
+<a href="https://mastodon.iriseden.eu/@alcapitan"><img alt="Mastodon Icon" src="https://cdn.simpleicons.org/mastodon" width="60" height="60" /></a>

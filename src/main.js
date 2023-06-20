@@ -1,2 +1,2 @@
 /* Patch ATUI */
-atuiKernel_FooterLastedited(27, 5, 2023);
+atuiKernel_FooterLastedited(20, 6, 2023);
