@@ -1,8 +1,15 @@
+# Large and proprietary files
+*.mp3
+!atui/kernel/assets/notification.mp3
+*.mp4
+patch/musics/*
+patch/videos/*
+
+# Useless files
+.vscode
+
 # NPM
 node_modules
 
 # Cache
-.cspellcache
-.eslintcache
-.stylelintcache
-
+.*cache

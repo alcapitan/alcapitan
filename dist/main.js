@@ -1,2 +1,2 @@
-"use strict";/* Patch ATUI */atuiKernel_FooterLastedited(20,6,2023);
-//# sourceMappingURL=main.js.map
+"use strict";atuiKernel_FooterLastedited(20,6,2023);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJhdHVpS2VybmVsX0Zvb3Rlckxhc3RlZGl0ZWQiXSwic291cmNlcyI6WyIuLi9zcmMvbWFpbi5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyIvKiBQYXRjaCBBVFVJICovXG5hdHVpS2VybmVsX0Zvb3Rlckxhc3RlZGl0ZWQoMjAsIDYsIDIwMjMpO1xuIl0sIm1hcHBpbmdzIjoiYUFDQUEsMkJBQTJCLENBQUMsRUFBRSxDQUFFLENBQUMsQ0FBRSxJQUFJLENBQUMifQ==

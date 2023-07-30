@@ -1,0 +1,11 @@
+{
+    "version": "0.2",
+    "ignorePaths": ["*.mp3", ".mp4", "**/dist", "package.json"],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": ["atui", "commitlint", "cssnano", "Lastedited", "Meteo", "Phonebook", "Pygame"],
+    "ignoreWords": [],
+    "import": ["@cspell/dict-fr-fr/cspell-ext.json"],
+    "language": "en,fr,lorem",
+    "useGitignore": true
+}
