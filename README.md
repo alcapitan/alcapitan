@@ -1,48 +1,63 @@
-# Hello, welcome on my GitHub profile ! 👋
+# Hi there, I'm Alex 👋
 
-## Who am I ? 💁
+🎓 Computer Science undergraduate at Avignon University  
+🌍 Incoming Erasmus student at UMons (Belgium)  
+💼 Aspiring to pursue a master's degree combining software engineering and IT management  
+💻 Passionate about building my own projects  
+📚 Mainly focused on Python and Flutter in my personal work  
+🚀 Currently exploring new languages, tools, and best development practices
 
-I'm a french 19 years old developer in university as second-year.  
-I am in coding since 2018. I am passionate about Linux and tech curiosities.  
-Btw I'm about to leave for an Erasmus program in Belgium as a third-year. Later on in my studies, I want to specialize in software development and do a master's degree in both management and IT.  
-Unfortunately, my Github isn't so active right now due to my time spent to my studies, consequently it mainly contains my old projects.  
-But nowadays, I have a web server for my current projects. More info soon !  
-My favorite quote is : _If you are against the world, then you are made to change the world. (Indian quote)_
+> _"If you are against the world, then you are made to change it."_
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alcapitan&layout=compact&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)  
-[![GitHub stats of Al Capitan](https://github-readme-stats.vercel.app/api?username=alcapitan&count_private=true&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
+---
 
-Follow me to see all my progress ! 😊  
+## 🛠️ Skills
 
-## My skills 👨‍💻
-
-**My current knowledge :**  
-<img alt="CSS Icon" src="https://cdn.simpleicons.org/css3" width="60" height="60" />
-<img alt="JavaScript Icon" src="https://cdn.simpleicons.org/javascript" width="60" height="60" />
-<img alt="NPM Icon" src="https://cdn.simpleicons.org/npm" width="60" height="60" />
-<img alt="PHP Icon" src="https://cdn.simpleicons.org/php" width="60" height="60" />
-<img alt="PostgreeSQL Icon" src="https://cdn.simpleicons.org/postgresql" width="60" height="60" />
-<img alt="C++ Icon" src="https://cdn.simpleicons.org/c++" width="60" height="60" />
-<img alt="Java Icon" src="https://cdn.simpleicons.org/openjdk" width="60" height="60" />
-<img alt="Python Icon" src="https://cdn.simpleicons.org/python" width="60" height="60" />
-<img alt="Flutter Icon" src="https://cdn.simpleicons.org/flutter" width="60" height="60" />
-
-**I would learn about :**  
-<img alt="React Icon" src="https://cdn.simpleicons.org/react" width="60" height="60" />
-<img alt="Typescript Icon" src="https://cdn.simpleicons.org/typescript" width="60" height="60" />
-<img alt="Qt Icon" src="https://cdn.simpleicons.org/qt" width="60" height="60" />
-<img alt="Rust Icon" src="https://cdn.simpleicons.org/rust" width="60" height="60" />
-<img alt="Sass Icon" src="https://cdn.simpleicons.org/sass" width="60" height="60" />
-<img alt="ElectronJS Icon" src="https://cdn.simpleicons.org/electron" width="60" height="60" />
+![CSS](https://img.shields.io/badge/CSS-0039e6?logo=css&logoColor=white&style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-ffcc00?logo=javascript&logoColor=black&style=for-the-badge)
+![NPM](https://img.shields.io/badge/NPM-CB3837?logo=npm&logoColor=white&style=for-the-badge)
   
-**Look my repositories below ! 👇**
+![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white&style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white&style=for-the-badge)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white&style=for-the-badge)
+  
+![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white&style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-ff471a?logo=openjdk&logoColor=white&style=for-the-badge)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge)
 
-## Collaborations 🤝
+### Learning future goals
 
-I will be very grateful for any help you can give me on my projects. I already had some projects with my friends.
+![Typescript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)
+![Sass](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white&style=for-the-badge)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge)
+![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white&style=for-the-badge)
+![Qt](https://img.shields.io/badge/Qt-41CD52?logo=qt&logoColor=white&style=for-the-badge)
+![Rust](https://img.shields.io/badge/Rust-990000?logo=rust&logoColor=white&style=for-the-badge)
 
-## Contact me
 
-**> To contact me, you can instead create an issue in one of my projects and write your message.**  
-<a href="https://instagram.com/al.capitan"><img alt="Instagram Icon" src="https://cdn.simpleicons.org/instagram" width="60" height="60" /></a>
-<a href="mailto:alexandre.boyer29@gmail.com"><img alt="Gmail Icon" src="https://cdn.simpleicons.org/gmail" width="60" height="60" /></a>
+---
+
+## 🚧 Current Projects
+
+- 📅 **Avignon EDT**: A timetable API based on the official source, providing easy access to course schedules.
+- 📱 **UADT**: A mobile app using Avignon EDT to get free classrooms.
+- 🗳 **France Politique API**: An API based on open data from France's Assemblée Nationale parliament.
+- 📊 **AN Live**: A mobile app providing as most information as possible about the French parliament works, using the France Politique API.
+- 📰 **Athena**: A RSS news aggregator that uses TF-IDF and KNN algorithms to improve content relevance and personalization.
+- 🖥 **Hermes**: A system monitoring tool for your remote servers, offering real-time insights, resource tracking, and alerts.
+
+---
+
+## 📈 GitHub Stats
+
+![Alex's GitHub stats](https://github-readme-stats.vercel.app/api?username=alcapitan&show_icons=true&theme=github_dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alcapitan&layout=compact&theme=github_dark)
+
+---
+
+## 📬 Get in Touch
+
+- 📧 Email: [alexandre.boyer29@gmail.com](mailto:alexandre.boyer29@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/alexandre-boyer-241869261/](https://www.linkedin.com/in/alexandre-boyer-241869261/)  
+- 🌐 Portfolio: [alcapitan.me](https://alcapitan.me)
